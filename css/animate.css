@@ -1,0 +1,51 @@
+.rectangle_1, .rectangle_2, .rectangle_3, .rectangle_4 {
+    animation: move;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+}
+
+@keyframes move {
+    0% {
+        transform: translate(0, 0);
+    }
+
+    100% {
+        transform: translate(335px, 285px);
+    }
+}
+
+
+.rectangle_2 {
+    animation-name: move2;
+    animation-duration: 15s;
+}
+
+@keyframes move2 {
+    from { transform: translate(0, 0) rotate(-45.23deg); }
+
+    to { transform: translate(304px, 214px) rotate(-90deg); }
+}
+
+.rectangle_3 {
+    animation-name: move3;
+    animation-duration: 8s;
+}
+
+@keyframes move3 {
+    from { transform: translate(0, 0); }
+
+    to { transform: translate(300px, 0); }
+}
+
+.rectangle_4 {
+    animation-name: move4;
+    animation-duration: 12s;
+}
+
+@keyframes move4 {
+    from { transform: translate(0, 0) rotate(41.09deg); }
+
+    to { transform: translate(96px, 747px) rotate(-70deg); }
+}
