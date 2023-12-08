@@ -1,4 +1,4 @@
-# BUSINESS NEWS
+# MY WORK
 
 This project was created to train students on Bootstrap v5.0.1. During my studies I taught:
 + downloading custom fonts,
